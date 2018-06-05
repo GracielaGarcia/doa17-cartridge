@@ -185,6 +185,7 @@ doa17CreateProductionGroup.with{
   environmentVariables {
     env('WORKSPACE_NAME', workspaceFolderName)
     env('PROJECT_NAME', projectFolderName)
+  }
   parameters{
     stringParam("AWS_REGION",'',"Default AWS Region")
     stringParam("ENVIRONMENT_NAME",'',"Name of your Environment")
