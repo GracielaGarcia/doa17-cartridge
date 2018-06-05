@@ -31,11 +31,6 @@ doa17LaunchEnvironment.with{
     env('WORKSPACE_NAME', workspaceFolderName)
     env('PROJECT_NAME', projectFolderName)
   }
- #FROM:
-  parameters{
-    stringParam("KEY", "Value", 'Description')
-  }
- #TO:
   parameters{
     stringParam("AWS_REGION",'us-east-1',"Default AWS Region")
     stringParam("ENVIRONMENT_NAME",'',"Name of your Environment")
