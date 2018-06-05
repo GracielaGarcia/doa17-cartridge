@@ -104,7 +104,6 @@ doa17CreateApplication.with{
     stringParam("PUBLIC_SUBNET",'',"Public Subnet from DevOps-Workshop-Networking stack")
     stringParam("CODE_DEPLOY_ARN",'',"IAM Role ARN from DevopsWorkshop-raem-roles stack")
   }
-  }
   wrappers {
     preBuildCleanup()
     maskPasswords()
